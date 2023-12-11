@@ -238,9 +238,7 @@ function drawGameOverScreen(){
 function drawMainMenu(){
     context.fillStyle='#303040'
     context.fillRect(0,0, canvas.width, canvas.height)
-    context.fillStyle='green^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location
-^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line
-'
+    context.fillStyle='green'
     context.font = '32px Russo One';
     context.textAlign = "center";
     context.fillText("Lets Play..", canvas.width /2, canvas.height /2)
